@@ -2,6 +2,8 @@
 
 ### Author: Doris Zdravkovic
 
+![wind turbine](pic_wind_turbine.PNG) 
+
 
 #### Aim of the project
 
