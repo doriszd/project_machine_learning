@@ -59,4 +59,11 @@ To install your jupyter notebook, you have to:
 
 
 #### About this project
+
+Windows
+
+set FLASK_APP=server.py
+python -m flask run
+docker build . -t projections-image
+docker run -- projections-container -d -p 5000:5000 projections-image
 #### Conclusion
