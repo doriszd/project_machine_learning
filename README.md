@@ -97,6 +97,10 @@ Once I made sure all programmes and packages are properly installed and updated 
  
  
  
+![power prediction](powerproduction_image.PNG) 
+ 
+ 
+ 
 
 
 
@@ -105,10 +109,3 @@ Once I made sure all programmes and packages are properly installed and updated 
 
 
 
-Windows
-
-set FLASK_APP=server.py
-python -m flask run
-docker build . -t projections-image
-docker run -- projections-container -d -p 5000:5000 projections-image
-#### Conclusion
