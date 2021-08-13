@@ -2,7 +2,7 @@
 
 ### Author: Doris Zdravkovic
 
-![wind turbine](pic_wind_turbine.PNG) 
+![wind turbine](pic_wind_turbine.png) 
 
 
 #### Aim of the project
@@ -58,7 +58,52 @@ To install your jupyter notebook, you have to:
 8. To send it to gitHub type git push
 
 
-#### About this project
+#### Contents of this repository
+
+1. dockerignore
+- allows you to specify a pattern for files and folders that should be ignored by the Docker client when generating a build context
+2. gitignore
+- ignores all files that you don't want to push on git. It is very important tool when you work with virtual machine
+3. Dockerfile
+- is a text document that contains all the commands a user could call on the command line to assemble an image. 
+4. requirements.txt
+- is used for specifying what python packages are required to run the project you are working on. Typically the requirements. txt file is located in the root directory of the project.
+5. server.py
+- python file that runs flask server to make predictions base on the model I used in the report. 
+5. model.h5
+- keras neural network model saved in jupyter notebook used for making power predictions.
+
+
+#### Step by step guide:
+
+Once I made sure all programmes and packages are properly installed and updated I ran my application. 
+
+###### Docker
+- docker -- version: to check if docker is properly installed and see the docker version
+- docker image ls: to check all the images built in docker
+- docker run -d -p 5000:5000 projections-image: once you decide which image to use run docker image. 
+
+###### Virtual machine
+- .\venv\Scripts\activate.bat: to activate virutal machine
+- pip install -r requirements.txt: to install all the packages needed to run the application listed in requirements.txt
+
+###### Server.py
+- set FLASK_APP=server.py: using server.py script
+- python -m flask run: to get the server running in the virtual environment 
+- I got a message saying: "Running on http://127.0.0.1:5000/"
+- I ran http://127.0.0.1:5000/ on my web browser. 
+ 
+ Once I ran http://127.0.0.1:5000/ on my local machine I got power production web site.
+ 
+ 
+ 
+
+
+
+
+
+
+
 
 Windows
 
