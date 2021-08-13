@@ -93,7 +93,7 @@ Once I made sure all programmes and packages are properly installed and updated 
 - I got a message saying: "Running on http://127.0.0.1:5000/"
 - I ran http://127.0.0.1:5000/ on my web browser. 
  
-Once I ran http://127.0.0.1:5000/ on my local machine I entered power production web site. As the goal of this project was to produce a model that accurately predicts wind turbine power output from wind speed values, in the screenshot below you can see the example of the application that runs properly. I tested 3 different models: linear regression, polynomial regression and neural network. I decided to proceede with neural network as it 
+Once I ran http://127.0.0.1:5000/ on my local machine I entered power production web site. As the goal of this project was to produce a model that accurately predicts wind turbine power output from wind speed values, in the screenshot below you can see the example of the application that runs properly. I tested 3 different models: linear regression, polynomial regression and neural network. I decided to proceede with neural network model as it has shown to be more accurate than the other two. The application below has input box, prediction button and output box. End user is asked to input wind speed and based on the wind speed the application calculates its power production using neural network model. 
  
  
  
@@ -105,7 +105,7 @@ Once I ran http://127.0.0.1:5000/ on my local machine I entered power production
  
  
  
-
+ 
 
 
 
